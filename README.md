@@ -7,6 +7,7 @@ For this submission, the EC2 path was implemented successfully: the Flask demo a
  is provisioned, started via gunicorn, and accessible directly over HTTP.
 
 🔄 High-Level Architecture
+```
    ┌─────────────────────┐
    │   User Prompt/CLI   │
    │ "Deploy this app…"  │
@@ -45,6 +46,7 @@ For this submission, the EC2 path was implemented successfully: the Flask demo a
    │  http://<public_ip> │
    │  ✅ Hello, World!   │
    └─────────────────────┘
+```
 
 🌐 Workflow (EC2 Path)
 
